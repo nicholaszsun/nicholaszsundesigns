@@ -11,6 +11,7 @@
 }
 
 body{
+  background-color: #f1f2da;
   margin: 0;
   padding: 0;
 }
@@ -75,7 +76,7 @@ nav{
  }
 
  /* ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^CSS FOR PROJECTS OF WEBSITE^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^ */
-a{
+ a{
   color: black;
   font-weight: 600;
 }
@@ -115,21 +116,23 @@ a{
 
 .sect{
   display: grid;
+  margin: auto;
 }
 
 .sect.title{
   justify-content: center;
 }
-.sect.content{
-  grid-template-columns: repeat(2, minmax(300px,1fr));
+.sect.title.content{
+  grid-template-columns: repeat(2, minmax(600px,1fr));
 }
-.cont{
+.cont.sumlil{
   display: flex;
   justify-content: flex-end;
 }
-.desc{
-}
 
-.introduction{
-  grid-template-columns: repeat(2, minmax(300px,1fr));
+.sect.intro{
+  justify-content: center;
+}
+.sect.content{
+  width: min(1200px, 70%);
 }
