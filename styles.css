@@ -113,28 +113,23 @@ a{
   width: min(800px, 70%);
 }
 
-.sec{
+.sect{
   display: grid;
-  flex-direction: column;
+}
+
+.sect.title{
   justify-content: center;
-  align-content: center;
-  padding: min(4rem);
+}
+.sect.content{
+  grid-template-columns: repeat(2, minmax(300px,1fr));
+}
+.cont{
+  display: flex;
+  justify-content: flex-end;
+}
+.desc{
 }
 
-/* ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^CSS FOR PROJECT 1 SECTIONS^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^ */
-.sec.sumlil01{
-  grid-template-columns: repeat(2,1fr);
-}
-
-.sumlil.title{
-  background-color: lightblue;
-}
-
-.sumlil.description{
-  background-color: lightcoral;
-}
-
-
-.sec.sumlil02{
-  background-color: lightgoldenrodyellow;
+.introduction{
+  grid-template-columns: repeat(2, minmax(300px,1fr));
 }
