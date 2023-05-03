@@ -102,8 +102,15 @@ a{
 
 /* ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^CSS FOR PROJECT 1 HERO^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^ */
 .sumlilhero{
-  background-color: lightblue;
-  
+  background-image: url(images/Background-01-01.png);
+  background-position: left top;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 8rem 0rem;
+}
+.sumlilthumbnail{
+  width: min(800px, 70%);
 }
 
 .sec{
