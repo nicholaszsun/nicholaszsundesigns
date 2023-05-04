@@ -1,13 +1,26 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;700;800&display=swap');
 @font-face {
- font-family: bubblepixel;
- src: url(fonts/04B_30__.TTF);
+ font-family: pixel;
+ src: url(fonts/ARCADECLASSIC.TTF);
 }
 
 *{
  box-sizing: border-box;
  font-family: "Poppins", sans-serif;
- font-size: 16px;
+ font-size: 1rem;
+}
+
+h1{
+    font-family: pixel;
+    font-size: 3rem;
+    letter-spacing: .3rem;
+    color: #00303b;
+}
+h2{
+    font-family: pixel;
+    font-size: 2rem;
+    letter-spacing: .1rem;
+    color: #00303b;
 }
 
 body{
@@ -15,7 +28,12 @@ body{
  margin: 0;
  padding: 0;
 }
+ul{
+    list-style: none;
+    padding: 0;
+}
 
+/* ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^CSS FOR THE ENIRE WEBSITE^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^ */
 nav{
     display: flex;
     justify-content: space-between;
@@ -54,6 +72,7 @@ nav{
   .navlinks li:hover{
     font-weight: 700;
   }
+/* ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^CSS FOR THE NAV BAR^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^ */
 
   .sumlilhero{
     background-image: url(images/Background-01-01.png);
@@ -68,24 +87,36 @@ nav{
   }
   
   .sect{
-    display: grid;
+    display: flex;
     margin: auto;
+    flex-direction: column;
   }
   
   .sect.title{
     justify-content: center;
   }
   .sect.title.content{
-    grid-template-columns: repeat(2, minmax(600px,1fr));
+    flex-direction: row;
+    gap: 2rem;
   }
   .cont.sumlil{
     display: flex;
-    justify-content: flex-end;
   }
   
   .sect.intro{
+    
     justify-content: center;
   }
+
   .sect.content{
     width: min(1200px, 70%);
+  }
+
+  .image-container {
+    display: flex;
+    justify-content: space-around;
+  }
+  
+  .pictures {
+    width: 200px;
   }
