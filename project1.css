@@ -120,3 +120,30 @@ nav{
   .pictures {
     width: 200px;
   }
+
+  .sec.research02 {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 6rem;
+    margin-top: 2rem;
+  } 
+  
+  .left-container, .right-container {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    grid-gap: .5rem;
+  }
+  
+  
+
+  .ogimage{
+    border-radius: 2rem;
+    max-width: 35rem;
+  }
+  
+  .gif{
+    width: 5rem;
+    border-bottom: .5px solid black;
+  }
+
+ 
