@@ -1,8 +1,4 @@
  @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;700;800&display=swap');
- @font-face {
-  font-family: bubblepixel;
-  src: url(fonts/04B_30__.TTF);
- }
 
 *{
   box-sizing: border-box;
@@ -11,7 +7,6 @@
 }
 
 body{
-  background-color: #f1f2da;
   margin: 0;
   padding: 0;
 }
@@ -101,38 +96,4 @@ nav{
   font-size: 2rem;
 }
 
-/* ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^CSS FOR PROJECT 1 HERO^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^ */
-.sumlilhero{
-  background-image: url(images/Background-01-01.png);
-  background-position: left top;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  padding: 8rem 0rem;
-}
-.sumlilthumbnail{
-  width: min(800px, 70%);
-}
 
-.sect{
-  display: grid;
-  margin: auto;
-}
-
-.sect.title{
-  justify-content: center;
-}
-.sect.title.content{
-  grid-template-columns: repeat(2, minmax(600px,1fr));
-}
-.cont.sumlil{
-  display: flex;
-  justify-content: flex-end;
-}
-
-.sect.intro{
-  justify-content: center;
-}
-.sect.content{
-  width: min(1200px, 70%);
-}
