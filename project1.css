@@ -32,7 +32,9 @@ ul{
     list-style: none;
     padding: 0;
 }
-
+p{
+  line-height: 2rem;
+}
 /* ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^CSS FOR THE ENIRE WEBSITE^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^ */
 nav{
     display: flex;
@@ -104,12 +106,11 @@ nav{
   }
   
   .sect.intro{
-    
     justify-content: center;
   }
 
   .sect.content{
-    width: min(1200px, 70%);
+    width: min(50rem, 70%);
   }
 
   .image-container {
@@ -121,7 +122,7 @@ nav{
     width: 200px;
   }
 
-  .sec.research02 {
+  .sect.research02 {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     grid-gap: 6rem;
@@ -138,7 +139,7 @@ nav{
 
   .ogimage{
     border-radius: 2rem;
-    max-width: 35rem;
+    max-width: 25rem;
   }
   
   .gif{
@@ -146,4 +147,49 @@ nav{
     border-bottom: .5px solid black;
   }
 
- 
+  .progression{
+    display: flex;
+    justify-content: space-between;
+    
+  }
+
+  .progression .version{
+    text-align: center;
+  }
+
+  .img-progression{
+    width: 5rem;
+  }
+
+  .progression.mimi{
+    justify-content: space-around;
+  }
+
+  .progression.nohnoh{
+    justify-content: space-around;
+  }
+
+  .final-product-container{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 2rem;
+  }
+
+  .final-product-image{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .final-image{
+    max-width: 100%;
+    border-radius: 1rem;
+  }
+
+  .sect.content.client-review{
+    text-align: center;
+  }
+
+  .client-review{
+    margin-bottom: 3rem;
+  }
