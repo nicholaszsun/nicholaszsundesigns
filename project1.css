@@ -190,6 +190,8 @@ nav{
     text-align: center;
   }
 
-  .client-review{
-    margin-bottom: 3rem;
+  footer{
+    text-align: center;
+    padding: 3rem;
+    color: rgb(107, 107, 107);
   }
