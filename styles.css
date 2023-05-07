@@ -65,7 +65,7 @@ nav{
  }
 
  h1{
-  font-size: 2rem;
+  font-size: 3rem;
   width: min(800px, 70%);
   font-weight: 500;
  }
@@ -74,6 +74,7 @@ nav{
  a{
   color: black;
   font-weight: 600;
+  text-decoration: none;
 }
 
 .projects{
@@ -81,7 +82,7 @@ nav{
   grid-template-columns: repeat(2,1fr);
   grid-template-rows: repeat(3,1fr);
   gap: 1rem 0;
-  padding: 1rem;
+  padding: 1rem auto;
 }
 
 .projectimage{
@@ -96,4 +97,49 @@ nav{
   font-size: 2rem;
 }
 
+footer{
+  text-align: center;
+  padding: 3rem;
+  color: rgb(107, 107, 107);
+}
+
+.about-me{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.about-me-title{
+  text-align: center;
+  font-size: 3rem;
+  font-weight: 600;
+}
+
+.about-me-container{
+  display: grid;
+  grid-template-columns: repeat(2,1fr);
+  gap: 10rem;
+  width: min(60rem, 100%);
+}
+
+.side-right{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.side-left{
+  padding: 1rem;
+}
+
+.profile-pic{
+  max-width: 100%;
+  border-radius: .5rem;
+}
+
+.about-me-header{
+  text-align: left;
+  font-weight: 500;
+}
 
