@@ -41,7 +41,8 @@ nav{
     justify-content: space-between;
     align-items: center;
     padding: 1rem 3rem;
-    /* background-color: lightblue; */
+    background-color: white;
+    box-shadow: 0 10px;
   }
   
   .logo{
@@ -78,7 +79,8 @@ nav{
 
   .sumlilhero{
     background-image: url(images/Background-01-01.png);
-    background-position: left top;
+    background-repeat: no-repeat;
+    background-size: cover;
     display: flex;
     justify-content: center;
     align-items: center;

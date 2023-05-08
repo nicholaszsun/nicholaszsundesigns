@@ -24,7 +24,7 @@ nav{
   justify-content: space-between;
   align-items: center;
   padding: 3rem;
-  /* background-color: lightblue; */
+  box-shadow: 0 1px;
 }
 
 .logo{
@@ -79,17 +79,18 @@ nav{
 
 .projects{
   display: grid;
-  grid-template-columns: repeat(2,1fr);
+  grid-template-columns: repeat(2,min(30rem, 100%));
   grid-template-rows: repeat(3,1fr);
-  gap: 1rem 0;
-  padding: 1rem auto;
+  gap: 0 2rem;
+  justify-content: center;
+  align-items: center;
 }
 
 .projectimage{
-  background-color: lightblue;
+  /* background-color: lightblue; */
 }
 .projectdes{
-  background-color: lightcoral;
+  /* background-color: lightcoral; */
 }
 
 .projtitle{
@@ -120,13 +121,14 @@ footer{
   display: grid;
   grid-template-columns: repeat(2,1fr);
   gap: 10rem;
-  width: min(60rem, 100%);
+  width: min(65rem, 100%);
 }
 
 .side-right{
   display: flex;
   align-items: center;
   justify-content: center;
+  flex-direction: column;
 }
 
 .side-left{
@@ -136,10 +138,15 @@ footer{
 .profile-pic{
   max-width: 100%;
   border-radius: .5rem;
+  box-shadow: 1rem 1rem #fcec5d;
 }
 
 .about-me-header{
   text-align: left;
-  font-weight: 500;
+  font-weight: 600;
 }
 
+.thumbnail-2{
+  width: 100%;
+  border-radius: .3rem;
+}
