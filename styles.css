@@ -79,18 +79,11 @@ nav{
 
 .projects{
   display: grid;
-  grid-template-columns: repeat(2,min(30rem, 100%));
+  grid-template-columns: repeat(2,min(25rem, 100%));
   grid-template-rows: repeat(3,1fr);
   gap: 0 2rem;
   justify-content: center;
   align-items: center;
-}
-
-.projectimage{
-  /* background-color: lightblue; */
-}
-.projectdes{
-  /* background-color: lightcoral; */
 }
 
 .projtitle{
@@ -148,5 +141,5 @@ footer{
 
 .thumbnail-2{
   width: 100%;
-  border-radius: .3rem;
+  border-radius: .5rem;
 }
