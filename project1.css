@@ -24,7 +24,6 @@ h2{
 }
 
 body{
- background-color: #f1f2da;
  margin: 0;
  padding: 0;
 }
@@ -186,12 +185,22 @@ nav{
 
   .final-image{
     max-width: 100%;
-    border-radius: 1rem;
+    border-radius: .5rem;
+  }
+
+  .final-images-container{
+    display: grid;
+    justify-content: center;
+    grid-template-columns: repeat(2,1fr);
+    grid-template-rows: 1fr;
+    gap: .5rem;
+    align-items: center;
   }
 
   .sect.content.client-review{
     text-align: center;
   }
+
 
   footer{
     text-align: center;
