@@ -42,7 +42,7 @@ nav{
     align-items: center;
     padding: 1rem 3rem;
     background-color: white;
-    box-shadow: 0 10px;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 1px 2px 0px;
   }
   
   .logo{
@@ -85,6 +85,7 @@ nav{
     justify-content: center;
     align-items: center;
     padding: 8rem 0rem;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 20px 25px -5px, rgba(0, 0, 0, 0.04) 0px 10px 10px -5px;
   }
   .sumlilthumbnail{
     width: min(800px, 70%);
